@@ -133,8 +133,8 @@ This project is open-source and available under the MIT License.
 This project was built to simulate real-world AI annotation tools used in machine learning pipelines, focusing on usability, structured data output, and efficient workflows.
 
 ## 🔥 Future Improvements
-⏱️ Annotation timer (track time per item)
-📊 Analytics dashboard (accuracy trends, stats)
-📁 Upload custom datasets (JSON import)
-☁️ Backend integration (store annotations remotely)
+⏱️ Annotation timer (track time per item)    
+📊 Analytics dashboard (accuracy trends, stats)   
+📁 Upload custom datasets (JSON import)   
+☁️ Backend integration (store annotations remotely)   
 👥 Multi-user annotation support
