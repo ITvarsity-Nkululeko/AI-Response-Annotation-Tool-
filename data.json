@@ -1,0 +1,92 @@
+[
+  {
+    "prompt": "Explain APIs in simple terms",
+    "responseA": "An API allows two applications to communicate with each other.",
+    "responseB": "An API is like a waiter that takes your request and brings back the result."
+  },
+  {
+    "prompt": "What is JavaScript closure?",
+    "responseA": "A closure is when a function remembers variables from its outer scope.",
+    "responseB": "Closure is when JavaScript closes a function after execution."
+  },
+  {
+    "prompt": "What are the Limits of API Usage?",
+    "responseA": "API usage limits are the guardrails that control how much, how often, and how heavily you can use an API.",
+    "responseB": "An API limit is basically a speed bump or quota that an API puts on how much you can use it."
+  },
+  {
+    "prompt": "Who can use a Web API?",
+    "responseA": "anyone who can make an HTTP request can use a Web API.",
+    "responseB": "Anyone with internet access + the right credentials can use a Web API."
+  },
+  {
+    "prompt": "What is API Testing?",
+    "responseA": "API testing is the process of checking whether an API works correctly, reliably, and securely—without relying on a user interface.",
+    "responseB": "API Testing is testing software by sending requests directly to the API — without using the app UI."
+  },
+  {
+    "prompt": "What is the differences between API Testing and UI Testing?",
+    "responseA": "API Testing = tests the backend logic directly, UI Testing = testing the user interface and user experience",
+    "responseB": "API Testing vs UI Testing = testing the engine vs testing the car dashboard."
+  },
+  {
+    "prompt": " What is the most common testing method that comes under API testing?",
+    "responseA": "Functional Testing (The Foundation), This is the most common and most important.",
+    "responseB": "Functional Testing, Goal: Does the endpoint do what it’s supposed to?"
+  },
+  {
+    "prompt": "What is the most common API error that is often founded?",
+    "responseA": "429 Too Many Requests (Rate Limit Exceeded)",
+    "responseB": " 401 Unauthorized"
+  },
+  {
+    "prompt": "What is hoisting in Javascript?",
+    "responseA": "Hoisting is JavaScript’s behavior of moving declarations to the top of their scope before code execution.",
+    "responseB": "Hoisting in JavaScript = declarations get “moved to the top” before code runs."
+  },
+  {
+    "prompt": "What are arrow functions in Javascript?",
+    "responseA": "Arrow functions are a shorter, cleaner way to write functions in JavaScript, introduced in ECMAScript 6 (ES6).",
+    "responseB": "Arrow functions are a shorter way to write functions in JavaScript, introduced in ES6 (2015)."
+  },
+  {
+    "prompt": "What is Strict Mode in Javascript?",
+    "responseA": "Strict Mode is a feature in JavaScript that makes your code run in a stricter, safer way by catching common mistakes and preventing risky behavior.",
+    "responseB": "Strict Mode is JavaScript's way of saying, stop letting me get away with dumb stuff."
+  },
+  {
+    "prompt": "What is NaN in JavaScript?",
+    "responseA": "It represents a value that is not a valid number, even though its type is technically still - number.",
+    "responseB": "It’s a special numeric value in JavaScript that means “this should be a number, but it isn’t valid."
+  },
+   {
+    "prompt": "Is javascript a statically typed or a dynamically typed language?",
+    "responseA": "JavaScript is a dynamically typed language.",
+    "responseB": "JavaScript is dynamically typed."
+  },
+   {
+    "prompt": "What is DOM?",
+    "responseA": "It is a programming interface that represents your HTML page as a tree of objects so JavaScript can interact with it.",
+    "responseB": "It’s the browser’s in-memory representation of your HTML page. Think of it as a tree of JavaScript objects that the browser builds so JS can read and change the page."
+  },
+   {
+    "prompt": "What is BOM?",
+    "responseA": "It is what allows JavaScript to interact with the browser itself—not just the web page.",
+    "responseB": "If the DOM is the page content, the BOM is everything around the page - the browser window itself."
+  },
+   {
+    "prompt": "What is scope in Javascript?",
+    "responseA": "Scope determines where a variable can be accessed in your code.",
+    "responseB": "Scope = where a variable is visible and can be used in your code."
+  },
+   {
+    "prompt": "What are prototypes in Javascript?",
+    "responseA": "Prototypes are the mechanism JavaScript uses for inheritance, A prototype is an object that other objects can inherit properties and methods from.",
+    "responseB": "Prototypes = JavaScript’s version of inheritance.Instead of classes copying code, JS objects have a hidden link to another object called the prototype"
+  },
+   {
+    "prompt": "What are callback functions in Javascript",
+    "responseA": "A callback function is a function that is passed as an argument to another function and is executed later.",
+    "responseB": "a function you pass into another function, to be called later."
+  }
+]

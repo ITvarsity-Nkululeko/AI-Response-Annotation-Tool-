@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AI Data Annotation Tool</title>
+</head>
+<body onload="loadItem()">
+    
+    
+
+    <div id="container">
+        <div class="main">
+
+             <h1>AI Response Evaluation Tool</h1>
+        
+                 <h2 id="progress"></h2>
+                 <h3 id="prompt"></h3>
+
+                 <div id="responseA" class="card" onclick="selectAnswer('A')"></div>
+                 <div id="responseB" class="card" onclick="selectAnswer('B')"></div>
+
+                 <br>
+                 <label>Accuracy:</label>
+                 <input type="number" id="accuracy" min="1" max="5"><br>
+
+                 <label>Clarity:</label>
+                 <input type="number" id="clarity" min="1" max="5"><br>
+
+                 <label>Reason:</label><br>
+                 <textarea id="reason"></textarea><br>
+
+                 <div id="progressBarContainer">
+                    <div id="progressBar"></div>
+                 </div>
+
+                 <button class="previousBtn" onclick="prevItem()">Previous</button>
+                 <button class="skipBtn" onclick="skipItem()">Skip >></button>
+
+                 <button type="submit" class="nextBtn" onclick="saveAnnotation()">Next</button><br>
+                 <button class="download" onclick="downloadData()">Download JSON</button>
+        </div>      
+
+    </div>
+
+
+
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
