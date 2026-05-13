@@ -120,7 +120,7 @@ Option 2
 
 Nkululeko A. Gumede
 
-  - Aspiring AI Data Annotator & JavaScript Developer
+  - Aspiring AI Trainer | Data Annotator & JavaScript Developer
   - Based in Durban, South Africa
 
 ## 📄 License
