@@ -9,7 +9,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px; 
     margin: auto;
-    background: rgb(77, 77, 51);
+    background: #ff66a3;
 }
 
 h1{
@@ -17,6 +17,7 @@ h1{
     color: #b30059;
     margin-bottom: 15px;
     text-align: right;
+    text-decoration: wavy;
 }
 
 
@@ -66,8 +67,8 @@ textarea{
     padding: 20px;
     border-radius: 25px;
     backdrop-filter: blur(50px);
-    background: rgb(214, 214, 194, 0.5);
-    box-shadow: 5px 5px 10px 0px rgba(212, 62, 62, 0.5);
+    background: #adad85;
+    box-shadow: 8px 8px 12px 0px rgba(17, 19, 136, 0.5);
 
 }
 
