@@ -7,7 +7,7 @@ A browser-based annotation tool for evaluating and labeling AI-generated respons
 Built to simulate real-world AI data labeling workflows used in training datasets.
 
 # DASHBOARD
-![AI Response Annotation app](images/Screenshot%202026-05-04%20104127.jpg)
+![AI Response Annotation app](images/dashboard-image.jpg)
 
 
 ## 🚀 Features
